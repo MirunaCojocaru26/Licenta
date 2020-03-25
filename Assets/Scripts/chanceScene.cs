@@ -2,16 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using UnityEngine.SceneManagement;
 
-namespace WindowApplication
+public class chanceScene : MonoBehaviour
 {
-    public class chanceScene : MonoBehaviour
+    public void NextScene(string scenename)
     {
-        public void NextScene(string sceneindex)
-        {
-            Debug.Log("sceneName to load: " + sceneindex);
-            SceneManager.LoadScene(sceneindex);
-        }
+        SceneManager.LoadScene(scenename);
     }
 }
