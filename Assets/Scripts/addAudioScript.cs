@@ -1,15 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class addAudioScript : MonoBehaviour
 {
 
     private static addAudioScript instance = null;
+    public GameObject go;
+
+    void Start()
+    {
+        go = GameObject.FindGameObjectWithTag("music");
+        SettingsData data = SaveSystem.LoadSettings();
+        go.GetComponent<AudioSource>().volume = data.volume;
+    }
+
     public static addAudioScript Instance
     {
         get { return instance; }
     }
+
     void Awake()
     {
         if (instance != null & instance != this)
@@ -22,5 +34,4 @@ public class addAudioScript : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
     }
-
 }

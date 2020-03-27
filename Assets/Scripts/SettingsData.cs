@@ -7,11 +7,9 @@ using UnityEngine;
 public class SettingsData
 {
     public float volume;
-    public int qualityindex;
 
     public SettingsData (MusicScript settings)
     {
         volume = settings.volm;
-        qualityindex = settings.quality;
     }
 }

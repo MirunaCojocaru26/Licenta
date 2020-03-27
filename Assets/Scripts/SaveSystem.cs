@@ -30,7 +30,7 @@ public static class SaveSystem
     }
     public static SettingsData LoadSettings()
     {
-        string path = Application.persistentDataPath + "/settings.save";
+        string path = Application.persistentDataPath + "/settings.txt";
         BinaryFormatter formatter = new BinaryFormatter();
         FileStream stream = new FileStream(path, FileMode.Open);
         try 
