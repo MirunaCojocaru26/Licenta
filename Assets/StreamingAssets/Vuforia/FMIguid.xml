@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="traian1" size="0.200000 0.301887" />
+    <ImageTarget name="titeica2" size="0.200000 0.272232" />
+    <ImageTarget name="stoilow4" size="0.200000 0.266500" />
+    <ImageTarget name="stoilow3" size="0.200000 0.266500" />
+    <ImageTarget name="stoilow2" size="0.200000 0.260714" />
+    <ImageTarget name="haret3" size="0.200000 0.270992" />
+    <ImageTarget name="haret1" size="0.200000 0.175298" />
+    <ImageTarget name="google1" size="0.200000 0.150000" />
+    <ImageTarget name="alt10" size="0.200000 0.132500" />
+    <ImageTarget name="alt9" size="0.200000 0.149375" />
+    <ImageTarget name="alt8" size="0.200000 0.301887" />
+    <ImageTarget name="alt7" size="0.200000 0.132500" />
+    <ImageTarget name="alt6" size="0.200000 0.301887" />
+    <ImageTarget name="alt5" size="0.200000 0.149864" />
+    <ImageTarget name="alt4" size="0.200000 0.150094" />
+    <ImageTarget name="alt3" size="0.200000 0.266500" />
+    <ImageTarget name="alt2" size="0.200000 0.266500" />
+    <ImageTarget name="alt1" size="0.200000 0.149920" />
+  </Tracking>
+</QCARConfig>
