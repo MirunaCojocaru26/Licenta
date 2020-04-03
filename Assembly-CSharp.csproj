@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Scripts\OpenLink.cs" />
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
+     <Compile Include="Assets\Scripts\SearchScript.cs" />
      <Compile Include="Assets\Scripts\SettingsData.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

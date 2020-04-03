@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class OpenLink : MonoBehaviour
 {
-    public void Open()
+    public void OpenCariere()
     {
         Application.OpenURL("http://cariere.as-mi.ro");
+    }
+    public void OpenSiteFaculty()
+    {
+        Application.OpenURL("http://fmi.unibuc.ro/en/");
     }
 }
