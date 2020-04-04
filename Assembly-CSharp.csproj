@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\chanceScene.cs" />
      <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Scripts\OpenLink.cs" />
+     <Compile Include="Assets\Scripts\PressButtons.cs" />
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\SearchScript.cs" />
      <Compile Include="Assets\Scripts\SettingsData.cs" />

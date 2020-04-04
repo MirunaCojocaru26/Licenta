@@ -20,7 +20,7 @@ public class SearchScript : MonoBehaviour
             {
                 int numEnter = Int32.Parse(theEnter);
                 if (numEnter < 1 || numEnter > 425)
-                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                 else
                 {
                     switch (numEnter / 100)
@@ -59,7 +59,7 @@ public class SearchScript : MonoBehaviour
                                     textDisplay.GetComponent<Text>().text = "Aceasta sala este de fapt amfitestrul Haret";
                                 }
                                 if (verify == false)
-                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                                 break;
                             }
                         case 1: 
@@ -78,7 +78,7 @@ public class SearchScript : MonoBehaviour
                                 if(numEnter == 113)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "Etajul 1, fata in fata cu scrile principale.";
+                                    textDisplay.GetComponent<Text>().text = "Etajul 1, fata in fata cu scarile principale.";
                                 }
                                 if (numEnter > 113 && numEnter< 122 && numEnter !=118)
                                 {
@@ -96,7 +96,7 @@ public class SearchScript : MonoBehaviour
                                     textDisplay.GetComponent<Text>().text = "Aceasta sala este de fapt amfitestrul Stoilow";
                                 }
                                 if (verify == false)
-                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                                 break;
                             }
                         case 2: 
@@ -115,7 +115,7 @@ public class SearchScript : MonoBehaviour
                                 if (numEnter == 213)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "Etajul 2, fata in fata cu scrile principale.";
+                                    textDisplay.GetComponent<Text>().text = "Etajul 2, fata in fata cu scarile principale.";
                                 }
                                 if (numEnter > 213 && numEnter < 221 && numEnter != 217)
                                 {
@@ -133,7 +133,7 @@ public class SearchScript : MonoBehaviour
                                     textDisplay.GetComponent<Text>().text = "Aceasta sala este de fapt amfitestrul Pompeiu";
                                 }
                                 if (verify == false)
-                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                                 break;
                             }
                         case 3: 
@@ -152,7 +152,7 @@ public class SearchScript : MonoBehaviour
                                 if (numEnter == 301)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "Etajul 3, fata in fata cu scrile principale.";
+                                    textDisplay.GetComponent<Text>().text = "Etajul 3, fata in fata cu scarile principale.";
                                 }
                                 if (numEnter > 210 && numEnter < 322 && numEnter != 316)
                                 {
@@ -170,7 +170,7 @@ public class SearchScript : MonoBehaviour
                                     textDisplay.GetComponent<Text>().text = "Aceasta sala este de fapt amfitestrul Titeica";
                                 }
                                 if (verify == false)
-                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                                 break;
                             }
                         case 4: 
@@ -179,30 +179,30 @@ public class SearchScript : MonoBehaviour
                                 if((numEnter > 420 && numEnter < 426) || numEnter == 419)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scrile din capatul culoarului din stanga. Sala pe care o cauti este pe partea drepta.";
+                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scarile din capatul culoarului din stanga. Sala pe care o cauti este pe partea drepta.";
                                 }
                                 if(numEnter>412 && numEnter<421 && numEnter!=419)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scrile din capatul culoarului din stanga. Sala pe care o cauti este pe partea stanga.";
+                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scarile din capatul culoarului din stanga. Sala pe care o cauti este pe partea stanga.";
                                 }
                                 if (numEnter > 404 && numEnter <410)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scrile din capatul culoarului din dreapta. Sala pe care o cauti este in spatele tau.";
+                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scarile din capatul culoarului din dreapta. Sala pe care o cauti este in spatele tau.";
                                 }
                                 if (numEnter >400 && numEnter <405)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scrile din capatul culoarului din dreapta. Sala pe care o cauti este pe partea stanga.";
+                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scarile din capatul culoarului din dreapta. Sala pe care o cauti este pe partea stanga.";
                                 }
                                 if (numEnter >409 && numEnter < 413)
                                 {
                                     verify = true;
-                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scrile din capatul culoarului din dreapta. Sala pe care o cauti este pe partea dreapta.";
+                                    textDisplay.GetComponent<Text>().text = "La etajul 3 urci scarile din capatul culoarului din dreapta. Sala pe care o cauti este pe partea dreapta.";
                                 }
                                 if (verify == false)
-                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici odata.";
+                                    textDisplay.GetComponent<Text>().text = "Nu pot sa gasesc aceasta sala. Te rog sa mai verifici o data.";
                                 break;
                             }
                         default: 
