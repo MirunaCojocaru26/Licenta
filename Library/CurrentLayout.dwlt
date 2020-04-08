@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 57
+  controlID: 33
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 731
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 58
+  controlID: 34
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 59
+  controlID: 35
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,8 +303,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 10816
+    m_SelectedIDs: 402b0000
+    m_LastClickedID: 11072
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -375,7 +375,7 @@ MonoBehaviour:
       splitSize: 6
       xOffset: 0
     m_HorizontalSplitter:
-      ID: 3545
+      ID: 149
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes: 540100001b030000
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 15460
+  m_LastSelectedObjectID: -4970
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,20 +491,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Fonds
   m_ViewMode: 1
   m_StartGridSize: 36
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Fonds
   m_LastFoldersGridSize: 36
   m_LastProjectPath: C:\Users\Lenovo\Desktop\Licenta 1.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: 56290000
-    m_LastClickedID: 10582
-    m_ExpandedIDs: 0000000030280000462a00009a2c00009c2c00009e2c0000a02c000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 5c280000
+    m_LastClickedID: 10332
+    m_ExpandedIDs: 000000002c280000422a0000a02c0000a22c0000a42c0000a62c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003028000090280000462a00009a2c00009c2c00009e2c0000a02c0000
+    m_ExpandedIDs: 000000002c280000422a0000a02c0000a22c0000a42c0000a62c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,7 +560,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300008c2f0000143e0000d62200008294000092940000909400003ca500003ea5000040a5000046a50000107d0000187d0000f2a8ffffc89fffff62290000862800001a290000402a0000a8290000102b000000000000d23d0000
+    m_ExpandedInstanceIDs: c62300008c2f0000143e0000d62200008294000092940000909400003ca500003ea5000040a5000046a50000107d0000187d0000f2a8ffffc89fffff62290000862800001a290000402a0000a8290000102b000000000000d23d00000afbffff402b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,7 +576,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -651,9 +651,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b694ffffd494ffffe294fffff294ffff0295ffff5e95ffff6e95fffffa95ffff1896ffff4c98ffff6298ffff7698ffffe298fffff298ffff069cffff5ca3ffffdca4ffff42adffff56adffff8eadffff8caeffffa8aeffff12b0ffff64b1ffff36b2ffff4cb2fffffeb2ffff8eb3ffff4eb5fffff2b5ffffd8b8fffff0b9ffff0ebaffff1cbaffff2cbaffff3cbaffff98baffffa8baffff8ebbffffacbbffffe0bdfffff6bdffff0abeffff66beffff7abeffff2ac5ffff70c5ffffe0cafffffecaffff08cbffff14cbffff20cbffff78cbffff84cbffffbcccffff4ccdffff6acdffff9ecfffffb4cfffffc4cfffff2ed0ffff40d0ffff54d1ffff00d2ffffc8d3ffff0ed4ffff24d4ffff86d5ffff50f8ffffc2f8ffff56f9ffff2afbffffcefbffff9a2e000086340000ba340000fa350000b2360000ee360000cc4f0000965d00003a6400009e6500003a730000d67b00000a900000c8900000acb000006eb10000a4b90000d2bc0000cec10000d2c50000d2c7000032cb00004ecd00003cce0000e8d0000036d4000076db000092df0000a6df0000c6e00000
+      m_SelectedIDs: 8ee0ffff
+      m_LastClickedID: -8050
+      m_ExpandedIDs: 28e1ffffdaf0fffff0f0ffff38f1ffff66f1ffff88f1ffff68f2ffff8af2ffffa0f2ffffb6f2ffffbcf8ffffdefbffff1e3900003c3d00007e3d0000ee41000002420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,9 +709,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1292.3076, y: 160.65039, z: 131.41948}
+    m_Target: {x: 1501.2505, y: 566.78265, z: 5.365546}
     speed: 2
-    m_Value: {x: 1292.3076, y: 160.65039, z: 131.41948}
+    m_Value: {x: 1501.2505, y: 566.78265, z: 5.365546}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -743,15 +743,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1833.3856
+    m_Target: 1633.6788
     speed: 2
-    m_Value: 1833.3856
+    m_Value: 1633.6788
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
