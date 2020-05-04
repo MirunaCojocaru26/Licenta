@@ -55,13 +55,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\addAudioScript.cs" />
      <Compile Include="Assets\Scripts\chanceScene.cs" />
-     <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Scripts\OpenLink.cs" />
      <Compile Include="Assets\Scripts\PressButtons.cs" />
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\SearchScript.cs" />
      <Compile Include="Assets\Scripts\SendEmail.cs" />
      <Compile Include="Assets\Scripts\SettingsData.cs" />
+     <Compile Include="Assets\Scripts\SettingsScript.cs" />
      <Compile Include="Assets\SSTools\Scripts\SSTools.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

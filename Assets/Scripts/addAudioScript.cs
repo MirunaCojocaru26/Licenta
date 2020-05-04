@@ -15,6 +15,7 @@ public class addAudioScript : MonoBehaviour
         go = GameObject.FindGameObjectWithTag("music");
         SettingsData data = SaveSystem.LoadSettings();
         go.GetComponent<AudioSource>().volume = data.volume;
+        QualitySettings.SetQualityLevel(data.quality*2);
     }
 
     public static addAudioScript Instance
