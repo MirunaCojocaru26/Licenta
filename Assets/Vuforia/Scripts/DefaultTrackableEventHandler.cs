@@ -99,9 +99,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in colliderComponents)
                 component.enabled = true;
 
-            // Enable canvas':
-            foreach (var component in canvasComponents)
-                component.enabled = true;
+
+            Debug.Log("te rog sa mergi");
         }
     }
 
