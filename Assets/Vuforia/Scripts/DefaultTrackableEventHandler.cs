@@ -8,6 +8,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using System;
+using System.Threading;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -91,6 +93,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
+            var text = mTrackableBehaviour.GetComponentsInChildren<TextScript>();
+            foreach (var aux in text)
+                aux.OnAppear();
+
+            foreach (var component in canvasComponents)
+                component.enabled = true;
+
             // Enable rendering:
             foreach (var component in rendererComponents)
                 component.enabled = true;
@@ -98,9 +107,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Enable colliders:
             foreach (var component in colliderComponents)
                 component.enabled = true;
-
-
-            Debug.Log("te rog sa mergi");
         }
     }
 
@@ -112,6 +118,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
+
+            var text = mTrackableBehaviour.GetComponentsInChildren<TextScript>();
+            foreach (var aux in text)
+                aux.OnDisappear();
 
             // Disable rendering:
             foreach (var component in rendererComponents)

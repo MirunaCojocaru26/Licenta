@@ -6,8 +6,10 @@ public class jsonController : MonoBehaviour
 {
     public string jsonURL;
     public jsonDataClass jsnData;
+
     void Start()
     {
+        jsonURL = "https://my-json-server.typicode.com/MirunaCojocaru26/Json/db";
         StartCoroutine(getData());
     }
 
@@ -28,5 +30,6 @@ public class jsonController : MonoBehaviour
     private void processJsonData(string _url)
     {
         jsnData = JsonUtility.FromJson<jsonDataClass>(_url);
+        Debug.Log(jsnData.info.Count);
     }
 }

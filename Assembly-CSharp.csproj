@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\SettingsData.cs" />
      <Compile Include="Assets\Scripts\SettingsScript.cs" />
      <Compile Include="Assets\SSTools\Scripts\SSTools.cs" />
+     <Compile Include="Assets\TextScript.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
