@@ -9,7 +9,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 using UnityEngine;
 using Vuforia;
 using System;
-using System.Threading;
+using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -24,6 +25,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
+    public string jsonURL;
+    public jsonDataClass jsnData;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -34,6 +37,29 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+
+        jsonURL = "https://my-json-server.typicode.com/MirunaCojocaru26/Json/db";
+        StartCoroutine(getData());
+    }
+
+    IEnumerator getData()
+    {
+        WWW _www = new WWW(jsonURL);
+        yield return _www;
+        if (_www.error == null)
+        {
+            processJsonData(_www.text);
+        }
+        else
+        {
+            Debug.Log("Oops, something went wrong");
+        }
+    }
+
+    private void processJsonData(string _url)
+    {
+        jsnData = JsonUtility.FromJson<jsonDataClass>(_url);
+        Debug.Log(jsnData.info.Count);
     }
 
     protected virtual void OnDestroy()
@@ -93,9 +119,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
+            System.Random rand = new System.Random();
+            int nr = rand.Next(0, jsnData.info.Count);
             var text = mTrackableBehaviour.GetComponentsInChildren<TextScript>();
             foreach (var aux in text)
-                aux.OnAppear();
+                aux.OnAppear(jsnData.info[nr].data);
 
             foreach (var component in canvasComponents)
                 component.enabled = true;

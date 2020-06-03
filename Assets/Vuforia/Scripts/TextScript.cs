@@ -10,9 +10,9 @@ public class TextScript : MonoBehaviour
     public Text textt;
     public Image panel;
 
-    public void OnAppear()
+    public void OnAppear(string aux)
     {
-        textt.text = "sdagsdf";
+        textt.text = aux;
         Color color = new Color(0.69F, 0.62F, 0.53F, 0.7F);
         panel.color = color;
     }

@@ -7,10 +7,11 @@ public class jsonController : MonoBehaviour
     public string jsonURL;
     public jsonDataClass jsnData;
 
-    void Start()
+    public jsonDataClass fctStart()
     {
         jsonURL = "https://my-json-server.typicode.com/MirunaCojocaru26/Json/db";
         StartCoroutine(getData());
+        return jsnData;
     }
 
     IEnumerator getData()

@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 144349142}
   - component: {fileID: 144349141}
   - component: {fileID: 144349145}
-  - component: {fileID: 144349146}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: EditorOnly
@@ -386,21 +385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698728d6b7cfa494098b14494255d540, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &144349146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144349140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98a6dc4c31039da44bd0f07958bd5ed8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jsonURL: 
-  jsnData:
-    info: []
 --- !u!1 &164492234
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &164492239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,6 +847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &201997039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,6 +989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &211146441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,6 +1604,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &328168837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,6 +1803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &453057773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1974,6 +1973,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &471992566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2714,6 +2716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &654644603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3173,6 +3178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &783258980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3312,6 +3320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &841109432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3611,6 +3622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &914446510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4182,6 +4196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1229160386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4913,6 +4930,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1598816156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5080,6 +5100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1674251927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5219,6 +5242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1724848964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5358,6 +5384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1741149488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5497,6 +5526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1778416025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6078,6 +6110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &1957314950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6745,6 +6780,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonURL: 
+  jsnData:
+    info: []
 --- !u!114 &2110641209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6829,19 +6867,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e7671aa5534c08849b68d92ed843463b, type: 3}
-    m_FontSize: 100
+    m_Font: {fileID: 12800000, guid: 5f01d75fbaf48434fb5ca67c8148a7c1, type: 3}
+    m_FontSize: 120
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 100
-    m_Alignment: 0
+    m_MaxSize: 150
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
