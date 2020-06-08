@@ -385,7 +385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1(Stoilow)/ Amf.Stoilow
+  m_Text: 1(Stoilow)/ Amf Stoilow
 --- !u!222 &96473990
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2(Pompeiu)/ Amf.Pompeiu
+  m_Text: 2(Pompeiu)/ Amf Pompeiu
 --- !u!222 &171490779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4979,7 +4979,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "3(\u021Ai\u021Beica)/ Amf.\u021Ai\u021Beica"
+  m_Text: "3(\u021Ai\u021Beica)/ Amf \u021Ai\u021Beica"
 --- !u!222 &1456128228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5317,6 +5317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640774011}
   - component: {fileID: 1640774010}
+  - component: {fileID: 1640774013}
   - component: {fileID: 1640774009}
   - component: {fileID: 1640774008}
   - component: {fileID: 1640774007}
@@ -5438,6 +5439,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1245718445}
+--- !u!114 &1640774013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640774006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745691415132b31429645d8bf2e0a020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nrTexts: 0
 --- !u!1 &1649512730
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,7 +5520,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0(Haret)/ Amf.Haret
+  m_Text: 0(Haret)/ Amf Haret
 --- !u!222 &1649512733
 CanvasRenderer:
   m_ObjectHideFlags: 0

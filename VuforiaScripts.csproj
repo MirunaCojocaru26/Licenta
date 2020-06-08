@@ -60,7 +60,10 @@
      <Compile Include="Assets\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
      <Compile Include="Assets\Vuforia\Scripts\jsonController.cs" />
      <Compile Include="Assets\Vuforia\Scripts\jsonDataClass.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Language.cs" />
      <Compile Include="Assets\Vuforia\Scripts\TextScript.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TranslatedTextPair.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Translator.cs" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/2018.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -309,6 +312,9 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/2018.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

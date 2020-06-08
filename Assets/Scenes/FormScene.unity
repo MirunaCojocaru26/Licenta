@@ -1237,6 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1730805611}
   - component: {fileID: 1730805610}
+  - component: {fileID: 1730805613}
   - component: {fileID: 1730805609}
   - component: {fileID: 1730805608}
   - component: {fileID: 1730805607}
@@ -1359,6 +1360,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recipentEmail: {fileID: 1166166665}
   bodyMessage: {fileID: 888284909}
+--- !u!114 &1730805613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730805606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745691415132b31429645d8bf2e0a020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nrTexts: 0
 --- !u!1 &1847634249
 GameObject:
   m_ObjectHideFlags: 0

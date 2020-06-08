@@ -7,8 +7,10 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -119,11 +121,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var colliderComponents = mTrackableBehaviour.GetComponentsInChildren<Collider>(true);
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
-            System.Random rand = new System.Random();
-            int nr = rand.Next(0, jsnData.info.Count);
-            var text = mTrackableBehaviour.GetComponentsInChildren<TextScript>();
-            foreach (var aux in text)
-                aux.OnAppear(jsnData.info[nr].data);
+            translate();
 
             foreach (var component in canvasComponents)
                 component.enabled = true;
@@ -163,6 +161,28 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in canvasComponents)
                 component.enabled = false;
         }
+    }
+
+    public void translate()
+    {
+        System.Random rand = new System.Random();
+        int nr = rand.Next(0, jsnData.info.Count);
+        Language lang = new Language();
+        string first = lang.prefLang("Auto");
+        string lang_name = PlayerPrefs.GetString("language");
+        string second = lang.prefLang(lang_name);
+        string response = " ";
+        Translator translator = Translator.Create(first, second);
+        int i = 0;
+        translator.Run(jsnData.info[nr].data, results => {
+            foreach (var result in results)
+            {
+                response = response + result.translated;
+            }
+            var text = mTrackableBehaviour.GetComponentsInChildren<TextScript>();
+            foreach (var aux in text)
+                aux.OnAppear(response);
+        });
     }
 
     #endregion // PROTECTED_METHODS

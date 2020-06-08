@@ -55,13 +55,18 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\addAudioScript.cs" />
      <Compile Include="Assets\Scripts\chanceScene.cs" />
+     <Compile Include="Assets\Scripts\DropdownLanguages.cs" />
+     <Compile Include="Assets\Scripts\Language.cs" />
      <Compile Include="Assets\Scripts\OpenLink.cs" />
      <Compile Include="Assets\Scripts\PressButtons.cs" />
+     <Compile Include="Assets\Scripts\ReloadTranslate.cs" />
      <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\SearchScript.cs" />
      <Compile Include="Assets\Scripts\SendEmail.cs" />
      <Compile Include="Assets\Scripts\SettingsData.cs" />
      <Compile Include="Assets\Scripts\SettingsScript.cs" />
+     <Compile Include="Assets\Scripts\TranslatedTextPair.cs" />
+     <Compile Include="Assets\Scripts\Translator.cs" />
      <Compile Include="Assets\SSTools\Scripts\SSTools.cs" />
      <Compile Include="Assets\TextScript.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
@@ -83,6 +88,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\JsonDotNet\link.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
@@ -323,6 +329,9 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/2018.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
