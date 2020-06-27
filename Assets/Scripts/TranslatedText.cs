@@ -1,10 +1,10 @@
 ﻿
-public class TranslatedTextPair
+public class TranslatedText
 {
     public string original;
     public string translated;
 
-    public TranslatedTextPair(string o, string t)
+    public TranslatedText(string o, string t)
     {
         original = o;
         translated = t;

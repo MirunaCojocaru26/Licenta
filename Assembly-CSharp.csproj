@@ -65,7 +65,7 @@
      <Compile Include="Assets\Scripts\SendEmail.cs" />
      <Compile Include="Assets\Scripts\SettingsData.cs" />
      <Compile Include="Assets\Scripts\SettingsScript.cs" />
-     <Compile Include="Assets\Scripts\TranslatedTextPair.cs" />
+     <Compile Include="Assets\Scripts\TranslatedText.cs" />
      <Compile Include="Assets\Scripts\Translator.cs" />
      <Compile Include="Assets\SSTools\Scripts\SSTools.cs" />
      <Compile Include="Assets\TextScript.cs" />
@@ -321,6 +321,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/2018.4.17f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -329,9 +332,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Lenovo/Desktop/Licenta-1.0/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/2018.4.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

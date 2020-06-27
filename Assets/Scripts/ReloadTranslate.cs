@@ -1,14 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ReloadTranslate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    // public Text text;
     private GameObject[] texts;
     string response;
     public int nrTexts;
@@ -20,11 +17,11 @@ public class ReloadTranslate : MonoBehaviour
         {
             if (t.text == "")
             {
-                toTranslate += "*. ";
+                toTranslate += "*.";
             }
             else
             {
-                toTranslate += t.text + ". ";
+                toTranslate += t.text + ".";
             }
         }
         translate(toTranslate, renderer);
@@ -42,7 +39,6 @@ public class ReloadTranslate : MonoBehaviour
             foreach (var result in results)
             {
                 response = response + result.translated;
-
             }
             string[] textTranslate = response.Split('.');
             for (i = 0; i < texts.Length; i++)
@@ -53,5 +49,4 @@ public class ReloadTranslate : MonoBehaviour
         });
 
     }
-
 }

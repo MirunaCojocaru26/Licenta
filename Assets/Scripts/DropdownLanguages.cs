@@ -19,7 +19,7 @@ public class DropdownLanguages : MonoBehaviour
         dropdown = GetComponent<Dropdown>();
         dropdown.ClearOptions();
         List<string> items = new List<string>();
-        List<string> language = new List<string> { "English", "Spanish",  "German", "Portuguese", "Russian", "Romanian" };
+        List<string> language = new List<string> { "English", "Spanish",  "German", "Russian", "Romanian" };
         if (PlayerPrefs.HasKey("language"))
             items.Add(PlayerPrefs.GetString("language"));
         int i = 0;

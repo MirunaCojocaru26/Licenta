@@ -15,9 +15,6 @@ public class Language : MonoBehaviour
             case "German":
                 chooseLang = "de";
                 break;
-            case "Portuguese":
-                chooseLang = "pt";
-                break;
             case "Russian":
                 chooseLang = "ru";
                 break;
